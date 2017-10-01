@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
 });
 
 // Global declaration of the Couchbase server and bucket to be used
-module.exports.bucket = (new couchbase.Cluster(process.env.COUCHBASE_HOST || config.couchbase.server)).openBucket(process.env.COUCHBASE_BUCKET || config.couchbase.bucket);
+//module.exports.bucket = (new couchbase.Cluster(process.env.COUCHBASE_HOST || config.couchbase.server)).openBucket(process.env.COUCHBASE_BUCKET || config.couchbase.bucket);
 
 app.use(express.static(path.join(__dirname, "public")));
 
