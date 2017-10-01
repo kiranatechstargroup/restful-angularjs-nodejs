@@ -1,6 +1,6 @@
 var express = require("express");
 var bodyParser = require("body-parser");
-var couchbase = require("couchbase");
+//var couchbase = require("couchbase");
 var path = require("path");
 var config = require("./config");
 var app = express();
